@@ -60,6 +60,23 @@
     color: #007bff;
 }
 </style>
+    <title>Add Contact Button</title>
+    <style>
+        /* Add CSS styles to customize the button's appearance */
+        .add-contact-button {
+            background-color: #007bff; /* Blue background color */
+            color: white; /* White text color */
+            padding: 10px 20px; /* Padding for spacing */
+            border: none; /* Remove border */
+            border-radius: 5px; /* Add rounded corners */
+            cursor: pointer; /* Change cursor to pointer on hover */
+        }
+
+        /* Style for button when hovering */
+        .add-contact-button:hover {
+            background-color: #0056b3; /* Slightly darker blue on hover */
+        }
+</style>
 </head>
 <body>
   <div class="card">
@@ -74,11 +91,15 @@
 	  <a href="https://www.linkedin.com/in/rushitsoni" class="social-icon" target="_blank"><i class="fab fa-linkedin"></i></a>
       <a href="https://twitter.com/RushitSoni_" class="social-icon" target="_blank"><i class="fab fa-twitter"></i></a>
     </div>
-    <img src="Rushit Soni Contact QR.png" alt="QR Code to Contact" style="max-width: 150px; margin-top: 20px;">
+    <img src="Rushit Soni Contact QR.png" alt="QR Code to Contact Rushit" style="max-width: 150px; margin-top: 20px;">
 	<div class ="other">
 	<p>Scan the QR to add Rushit Soni in your contact.</p>
   </div>
   <!-- Font Awesome Icons (You need to include this in the head section) -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Add Contact Button -->
+    <a class="add-contact-button" href="data:text/vcard;charset=utf-8,BEGIN:VCARD%0AVERSION:3.0%0AFN:Rushit%20Soni%0ATEL:+91 7359960499%0AEMAIL:rushitsoni.lic@gmail.com%0AEND:VCARD">
+        Add Contact
+    </a>
 </body>
 </html>
